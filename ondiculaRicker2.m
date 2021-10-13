@@ -85,7 +85,7 @@ xlabel('Frecuencia[Hz]')
 ylabel('Amplitud')
 grid minor
 xlim([0.00 250])
-ylim([-10 15])
+ylim([-20 30])
 
 figure(7)
 plot(fcoef,20*log10(abs(TF_coefs))) 
@@ -93,7 +93,7 @@ xlabel('Frecuencia[Hz]')
 ylabel('dB')
 grid minor
 xlim([0.00 250])
-ylim([-30 40])
+ylim([-60 80])
 
 %Espectro de amplitud Ricker
 k=0:63;
